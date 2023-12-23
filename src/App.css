@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+@media only screen
+  and (max-device-width: 768px)
+  and (orientation: portrait) {
+    body{
+      zoom: 35%;
+    }
+    .container{
+      margin: 0;
+      max-width: 100%;
+    }
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Thonburi", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(85, 84, 84);
+  font-size: medium;
+}
+
+button {
+  background-color: transparent;
+  border: 1.5px solid rgb(132, 132, 132);
+  color: white;
+  font-size: 1rem;
+  font-family: inherit;
+  max-width: 300px;
+  padding: 0.5rem 0.5rem;
+  color: rgb(132, 132, 132);
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(132, 132, 132);
+}
+
+.container {
+  margin: auto;
+  max-width: 600px;
+  /* overflow: auto; */
+  text-align: center;
+}
+
+.form {
+  align-items: center;
+  display: flex;
+  /* flex-direction: column;
+  justify-content: flex-end; */
+  gap: 0rem;
+}
+
+.form input {
+  /* display: block; */
+  width: 100%;
+  height: 25px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+img {
+  width: 300px;
+
+}
+
+h1{
+  color: rgb(85, 84, 84);
+  letter-spacing: 3px;
+  font-size: x-large;
+}
+
+h3{
+  font-size: x-large;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: rgb(85, 84, 84);
+  color: transparent;
+  letter-spacing: 2px;
+}
+
+h2{
+  color: rgb(85, 84, 84);
+  font-size:large;
+}
+h4{
+  color: rgb(118, 116, 116);
+  font-size:small;  
+}

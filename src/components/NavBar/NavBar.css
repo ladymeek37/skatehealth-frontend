@@ -1,0 +1,88 @@
+@media only screen
+  and (max-device-width: 768px)
+  and (orientation: portrait) {
+    body{
+      zoom: 35%;
+    }
+    .container{
+      margin: 0;
+      max-width: 100%;
+      padding-left: 22%;
+      padding-right: 22%;
+    }
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.25rem;
+}
+
+.navBar {
+  background:white;
+  box-shadow: 5px 2px 5px gray;
+  color: rgb(132, 132, 132);
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+}
+
+.navBar button {
+  background: transparent;
+  border: 2px solid rgb(132, 132, 132);
+  color: rgb(132, 132, 132);
+  padding: 0.4rem 0.5rem;
+  margin-left: 35px;
+  position: relative;
+  top: -3px;
+}
+
+.navBar button:hover{
+  background: rgb(132, 132, 132);
+  color: white;
+  cursor: pointer;  
+}
+
+
+.brand {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.navtext{
+  color:rgb(132, 132, 132)
+}
+
+.navtextgnarhealth{
+  color:rgb(85, 84, 84);
+  letter-spacing: 5px;
+}
+
+.loginlogout{
+  color:rgb(132, 132, 132);
+  border: 2px solid rgb(132, 132, 132);
+  margin-left: 20px;
+}
+
+.option{
+  margin: 0%;
+  padding: 20px;
+}
+
+.navchoices{
+  position: relative;
+  bottom:-15px;
+  margin-right: 30px;
+}
+
+.description{
+  margin-top:10px;
+  color:rgb(132, 132, 132);
+}
+
+body{
+  margin-bottom: 0%;
+}

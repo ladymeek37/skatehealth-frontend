@@ -1,0 +1,24 @@
+@media only screen
+  and (max-device-width: 768px)
+  and (orientation: portrait) {
+    .yourfavtips {
+        position: relative !important;
+        left: 0px !important; }
+}
+
+
+.yourfavtips{
+    position: relative;
+    left: 234px;
+    margin-bottom: 40px;
+}
+.child{
+    margin: 20px;
+    min-width: 90%;
+    margin-bottom: 45px;
+    padding-bottom: 100px;
+}
+
+.favitem{
+    margin:25px
+}

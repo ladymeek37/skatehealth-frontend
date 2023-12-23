@@ -1,0 +1,29 @@
+.registerinput{
+    max-width: 50px;
+    min-width: 100px;
+}
+
+.registerform{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: fit-content;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    left:20%
+}
+
+.registertitle{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.registerbutton{
+    text-align: center;
+    left:44%;
+    margin-top: 31px;
+    position: relative;
+    max-width: 86px;
+}

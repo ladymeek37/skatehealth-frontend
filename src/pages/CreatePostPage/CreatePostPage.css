@@ -1,0 +1,106 @@
+@media only screen
+  and (max-device-width: 768px)
+  and (orientation: portrait) {
+    .pagechild{
+        margin: 10% !important
+    }
+}
+
+/* .pageparent{
+    padding:70px;
+    text-align: left;
+    color: rgb(85, 84, 84);
+    letter-spacing: 1px;
+    padding-right: 313px;
+    padding-left: 313px;
+} */
+
+.newposttext{
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 43px;
+}
+
+input{
+    border:1.5px solid rgb(163, 158, 158);
+}
+
+.mandatorytext{
+    font-size: x-small;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    right:50px;
+}
+
+.formdate{
+    max-width: 25%;
+    height:40px;
+}
+
+.formtitle{
+    width:80%;
+    height: 50px;
+}
+
+.formtext{
+    height: 100px;
+    width:80%;
+}
+
+.formimage{
+    height: 60px;
+    width: 32%;
+    padding-top: 18px;
+}
+
+.formlink{
+    height: 50px;
+    width:45%
+}
+
+.submitnewpost:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(132, 132, 132);
+}
+
+.pagechild{
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1.5px solid rgb(132, 132, 132);
+    padding: 70px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.submitnewpost{
+    position: relative;
+    bottom: -42%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: 38px;
+    width:30%
+}
+
+.field{
+    margin-left: 80px;
+}
+
+select{
+    width: 150px;
+    height: 80px;
+    border:1.5px solid rgb(163, 158, 158);
+    font-size: 13px;
+    background-color: #ffffff;
+    font-family: "Thonburi", sans-serif;
+    padding:10px;
+    appearance: none;
+    padding-left:18px
+}
+
+.categorytext{
+    bottom: 32px;
+    position: relative;
+}

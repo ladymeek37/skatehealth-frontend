@@ -1,0 +1,20 @@
+
+.editpagechild{
+    margin: 30px;
+    border: 1.5px solid rgb(132, 132, 132);
+    padding: 54px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.editfield{
+    margin-left: 80px;
+}
+
+.edittitletext{
+    margin-bottom: 30px;
+    text-align: center;
+}
